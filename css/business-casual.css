@@ -191,41 +191,13 @@ p {
   .product-item .product-item-img {
     position: relative;
     z-index: 0;
-    max-width: 60vw;
+    max-width: 50vw;
   }
   .product-item .product-item-description {
     position: relative;
     z-index: -1;
     margin-top: -2rem;
-    max-width: 50vw;
   }
-}
-
-.list-hours {
-  font-size: 0.9rem;
-}
-
-.list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
-  padding-bottom: .25rem;
-  margin-bottom: 1rem;
-  font-style: italic;
-}
-
-.list-hours .list-hours-item.today {
-  font-weight: bold;
-  color: #cc9900;
-}
-
-@media (min-width: 992px) {
-  .list-hours {
-    width: 50%;
-    font-size: 1.1rem;
-  }
-}
-
-.address strong {
-  font-size: 1.2rem;
 }
 
 .footer {
@@ -256,4 +228,23 @@ p {
 
 .font-weight-light {
   font-weight: 100 !important;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #cc9900;
+  color: #000;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: rgba(255,255,255,.4);
 }
